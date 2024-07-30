@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+
+body {
+	margin: flex;
+	justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+	background: url('data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAJQA0wMBIgACEQEDEQH/xAAaAAEBAQEBAQEAAAAAAAAAAAAAAQIDBAcF/8QAMxAAAgIBAgQDBAkFAAAAAAAAAAECEQMSIQQxQVETYaEiMnGRFGJygZKxweHwIzNCgtH/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAQL/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwD44ADKAKAAAAAAACgCAoAgKAICgCAoAgKAIAAAAAEKAIAABSFAAAAAUCFAAAAAC0KAgLQoCAtCgIC0KAgAAAACApAAAAAAACgCFAAAFoCFoUUCUUAAAAAAAAAAAABKKAMg0SgIC0QAQoAgKQCloooDvl4TJhx4pyljcc0FODjK9uz7PyOWn6+P8aPVglCWBwyQc1B371c/M14XDT9zLkg/rxUvyKPFp84fjX/S6H29Uev6JKV+HlxT32qVP1OU8GbHfi45wrq47fMDlLFkjBTlF6W6UulmD14IqcZ4m5UuiMvh0/cyR+EtgPNRaO0uGyxV6JNd4+0vmjnW+xBmhRuhQGKFG6FAYoUboUBihRuiUBmiG6FIDFCjQAzQooYEJRoAZoGgAAKB24WnPT3/AHX6nZR2TTV9tR5sTqTfl+/6HeVW352ijUYT39lvly36khri3FOUU07XJMyq1Pk9uRU5xl1UWmgGL+47br49DelX236M54XeVX12Oj6PuiCU4+1FyT7pnDI25W+dHZ9q9Tjldy+4DBQAAAAAAAQpAAAAUSigCMhRYEIVgCAoAUKNABDaSPS5ScbUpK1XNnnTp2eqU8EMEPDnjlOk5x9rt0dV26lGNck98kq+0yVPm4yced0Z8afROP2aj+Rzbm3bd/7WB0h78aZ1bSS3ujyylNbxCk1zbvsB6H5nGfMc+rBB1XDZGk0k1VlhwmaVVFO+zPVweVRnFTdY5RcZ/B7HswY58Lk8TNGlj3Td1J9K79wPx58PkgnqSVeZzo9nETuLt9jyPmBKFFAEJRoAZoUUAZaFGiARolGgBmiUbAGKBoAAAAfLYl7pM6Q0JTll1OEY3Uav1NY8kHJOM5LG48544z9HsUcweqMeGyp6suJSXWC8O/ipJL5MmXhVHHrWaLS6tX6xteoHnUJZLUFbK4Si7cZR6bo17uNaY48jlLfU+n3M6RyQi+Wm1Tj4iaf3WBwB1yeCltS7U7OSIPdGNJUdscHOEva91Wk/5/KPF9Ira9j1YcrUYSg6fcombAniU3Lm3tXY8HU93E5HKO9XVbbJHgRBQAABAAAAAgAAAACAAAABLJYLQElOsU0rcnySXMilSSrkWi0UZ1+RHPyNaRoA7YViyQ/qScZU6d7WcNfwK03iljuot29jPh0B1xTxpqWSNxVpt9PMxq89rI8acdLunu13KoLzA1leL/GR2xTkscaTao4aF2GhAeiUpS5pnn1VszS25N/MmlXZAU0NQpdi0gFixRAKCACggAABgACUBQQAARFsC2CDqBQEAAAAFIAKCACggAoIAKCAAAAAAAACwIwUgACwBAABUAAAT3AAoAAAAAAAAAAAAAAAAAAAACAAAAAIAAP/2Q==');
+    background-position:center;
+}
+
+.wrapper {
+    width:420px;
+    background:trans;
+    color:orange;
+    border-radius: 10px;
+    padding: 30px 40px;
+    border:2px solid transparent;
+}
+.wrapper h1 {
+    font-size:36px;
+    text-align: center;
+}	
+.wrapper .input-box {
+    position:relative;
+    width:100%;
+    height:50px;
+    margin:30px 0;
+}
+
+
+
+.input-box input {
+    width:100%;
+    height:100%;
+    border:none;
+    outline:none;
+    border:2px solid rgba(255, 255, 255 .2);
+    border-radius:40px;
+    font-size:16px;
+    color:#fff;
+    padding:20px 45px 20px 20px;
+
+}
+
+.input-box input::placeholder {
+    color: rgba(105, 100, 100, 0.6);
+}
+
+.input-box i {
+    position:absolute;
+    right:15px;
+    top:30%;
+    transform:translate(-50%);
+    font-size:20px;
+}
+.wrapper .remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin:-15px 0 15px;
+    
+}
+.remember-forgot a {
+    
+    text-decoration:none;
+}
+.remember-forgot a:hover {
+    text-decoration:underline;
+}
+
+.wrapper.btn {
+
+    width:100%;
+    height:50px;
+    background:orange;
+    color:black;
+    border:none;
+    outline:none;
+    border-radius:40px;
+    font-size:18px;
+    text-align:center;
+    cursor:pointer;
+    transition: background.3s ease-in-out;
+}   
+.wrapper .register-link {
+    font: size 14.5px;
+    text-align:center;
+    margin:20px 0 15px;
+}
+.wrapper.register-link p a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}   
+.register-link p a hover {
+    text-decoration: underline;
+}
